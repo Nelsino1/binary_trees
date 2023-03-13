@@ -18,5 +18,3 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 		return (node->parent->parent->right);
 	return (node->parent->parent->left);
 }
- 35  
-2-binary_tree_insert_right.c
